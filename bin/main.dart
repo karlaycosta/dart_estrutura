@@ -1,8 +1,15 @@
 
 void main() {
-  final cifrado = criptografar('Mannaryelly', 3);
-  print(cifrado);
-  print(descriptografar(cifrado, 3));
+  // firaode
+  // final cifrado = criptografar('Mannaryelly', 3);
+  // print(cifrado);
+  // print(descriptografar(cifrado, 3));
+  // print(String.fromCharCodes('Mannaryelly'.codeUnits.map((q) => q + 3)));
+  late final List<int> lista = [];
+  for (var i = 0; i < 10; i++) {
+    lista[i] = i;
+  }
+  print(lista);
 }
 
 String criptografar(String palavra, int chave) {
